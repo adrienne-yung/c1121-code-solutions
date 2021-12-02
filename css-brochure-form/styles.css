@@ -23,6 +23,7 @@ input {
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 15px;
   border-style: solid;
+  margin-top: 5px;
 }
 
 form {
@@ -41,12 +42,8 @@ button {
 
 label {
   font-family: 'AtlasGrotesk', sans-serif;
-  font-size: 13px;
-}
-
-h3 {
+  font-size: 12px;
   padding-left: 10px;
-  margin-bottom: 10px;
 }
 
 .text-align-right {
