@@ -13,21 +13,13 @@ h1 {
   font-size: 20px;
 }
 
-select {
+select,
+input {
   background-color: rgb(243, 243, 243);
   border-radius: 5px;
   padding: 10px 0 10px 10px;
   width: 100%;
   border-color: rgb(213, 215, 215);
-  font-family: 'Brandon Grotesque', sans-serif;
-  font-size: 15px;
-}
-
-input {
-  width: 100%;
-  border-radius: 5px;
-  border-color: rgb(213, 215, 215);
-  padding: 10px 0 10px 10px;
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 15px;
   border-style: solid;
@@ -49,9 +41,12 @@ button {
 
 label {
   font-family: 'AtlasGrotesk', sans-serif;
-  padding-left: 13px;
-  line-height: 25px;
   font-size: 13px;
+}
+
+h3 {
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 
 .text-align-right {
