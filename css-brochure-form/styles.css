@@ -19,7 +19,7 @@ input {
   border-radius: 5px;
   padding: 10px 0 10px 10px;
   width: 100%;
-  border-color: rgb(213, 215, 215);
+  border-color: rgb(22, 32, 32);
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 15px;
   border-style: solid;
@@ -44,6 +44,7 @@ label {
   font-family: 'AtlasGrotesk', sans-serif;
   font-size: 12px;
   padding-left: 10px;
+  font-weight: bold;
 }
 
 .text-align-right {
