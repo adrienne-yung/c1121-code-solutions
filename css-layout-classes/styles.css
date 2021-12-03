@@ -1,0 +1,40 @@
+* {
+  font-family: sans-serif;
+}
+
+.column-two-thirds {
+  width: 66.67%;
+}
+
+.column-one-half {
+  width: 50%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-one-fourth {
+  width: 25%;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.mario-margin-left {
+  margin-left: 30px;
+}
+
+.ssbu-margin {
+  margin-left: 35px;
+}
+
+.img-width {
+  width: 100%;
+}
