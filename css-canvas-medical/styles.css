@@ -101,6 +101,7 @@ a {
   color: white;
   padding: 10px;
   font-size: 14px;
+  border-radius: 5px;
 }
 
 .dark-gray-background {
@@ -110,7 +111,7 @@ a {
 
 .light-gray-background {
   background-color: rgb(250, 250, 250);
-  height: 250px;
+  height: 300px;
 }
 
 .light-gray-background-two {
@@ -123,6 +124,8 @@ button {
   color: white;
   background-color: rgb(41, 68, 100);
   font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(41, 68, 100);
 }
 
 .second-button {
@@ -152,6 +155,37 @@ button {
 .flex-wrap-row {
   flex-wrap: wrap;
   text-align: center;
+}
+
+.ready-header {
+  color: rgb(112, 112, 112);
+}
+
+.ready-paragraph-color {
+  color: rgb(145, 145, 145);
+}
+
+.lower-anchor-color {
+  color: rgb(145, 145, 145);
+}
+
+.clinicians-header {
+  color: rgb(129, 129, 129);
+}
+
+.clinicians-paragraph {
+  color: rgb(145, 145, 145);
+}
+
+.clinicians-paragraph-font-size {
+  font-size: 12px;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.padding-left-ready {
+  padding-left: 40px;
 }
 
 .top-canvas-logo {
