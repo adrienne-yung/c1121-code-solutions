@@ -1,0 +1,247 @@
+.container {
+  margin: auto;
+  width: 900px;
+}
+
+.border-container {
+  border-bottom: rgb(185, 183, 183) solid 2px;
+  margin-bottom: 50px;
+  height: 80px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+h2 {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-size: 33px;
+}
+
+h3 {
+  font-family: 'Tiempos Headline', sans-serif;
+}
+
+h4 {
+  color: white;
+}
+
+h4,
+p,
+a,
+button {
+  font-family: 'Avenir', sans-serif;
+}
+
+.hero-picture {
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  height: 500px;
+  width: 900px;
+  position: relative;
+}
+
+.hero-picture-overlay {
+  background-color: rgba(223, 223, 223, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.first-get-started-button {
+  padding-top: 30px;
+}
+
+.emr-margin {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.emr-heading {
+  color: white;
+  padding-top: 20px;
+}
+
+.emr-paragraph {
+  color: white;
+  line-height: 1.5;
+}
+
+.emr-width {
+  width: 50%;
+}
+
+.top-nav {
+  color: rgb(185, 183, 183);
+  margin-left: 11px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.top-nav-margin {
+  margin-top: 35px;
+  width: 100%;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-us-nav {
+  background-color: rgb(41, 68, 100);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.dark-gray-background {
+  background-color: rgb(82, 83, 81);
+  height: 300px;
+}
+
+.light-gray-background {
+  background-color: rgb(250, 250, 250);
+  height: 300px;
+}
+
+.light-gray-background-two {
+  background-color: rgb(250, 250, 250);
+  height: 50px;
+}
+
+button {
+  padding: 15px 35px 15px 35px;
+  color: white;
+  background-color: rgb(41, 68, 100);
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(41, 68, 100);
+}
+
+.second-button {
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.right-nav,
+.left-nav {
+  color: white;
+}
+
+.bottom-nav {
+  display: flex;
+}
+
+.margin {
+  margin: auto;
+}
+
+.text-align-center {
+  text-align: center;
+  margin: auto;
+}
+
+.flex-wrap-row {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.ready-header {
+  color: rgb(112, 112, 112);
+}
+
+.ready-paragraph-color {
+  color: rgb(145, 145, 145);
+}
+
+.lower-anchor-color {
+  color: rgb(145, 145, 145);
+}
+
+.clinicians-header {
+  color: rgb(129, 129, 129);
+}
+
+.clinicians-paragraph {
+  color: rgb(145, 145, 145);
+}
+
+.clinicians-paragraph-font-size {
+  font-size: 12px;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.padding-left-ready {
+  padding-left: 40px;
+}
+
+.top-canvas-logo {
+  width: 35%;
+  margin-top: 30px;
+}
+
+.bottom-canvas-logo {
+  width: 45%;
+}
+
+.row-three-margin {
+  margin-top: 35px;
+}
+
+.row-three-header-padding {
+  padding-top: 15px;
+}
+
+.row-four-margin {
+  margin-top: 20px;
+}
+
+.row-five-margin {
+  margin-top: 15px;
+}
+
+.row-six-margin {
+  margin-top: 15px;
+}
+
+.lower-anchor-padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lower-anchor-margin {
+  margin-top: 15px;
+}
+
+.row-five-font {
+  font-size: 14px;
+  margin: auto;
+  padding-left: 40px;
+  line-height: 1;
+  color: white;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.a-line-height {
+  line-height: 2;
+}
+
+.padding-top-anchor-header {
+  padding-top: 32px;
+}
