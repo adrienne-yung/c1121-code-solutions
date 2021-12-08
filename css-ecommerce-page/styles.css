@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+  margin: auto;
+  width: 900px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fifth {
+  width: 20%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+span {
+  color: rgb(212, 212, 212);
+}
+
+p {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.column-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lv-padding-top {
+  padding-top: 30px;
+}
