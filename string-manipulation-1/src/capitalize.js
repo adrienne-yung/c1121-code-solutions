@@ -1,5 +1,5 @@
 /* exported capitalize */
-/* - create a storage space and store the first letter of each word and uppercase them
+/* - create a storage space and store the first letter of a word and uppercase them
 - create a storage space to store the rest of the other letters
 - go through the rest of the remaining letters
 - lower case the remaining letters and store them into your storage space for remaining letters
