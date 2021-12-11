@@ -8,7 +8,7 @@
 function compact(array) {
   var newArray = [];
   for (var i = 0; i < array.length; i++) {
-    if ((array[i] !== false) && (array[i] !== '') && (array[i] !== undefined) && (array[i] !== 0) && (array[i] !== null) && (Number.isNaN(array[i]) !== true)) {
+    if (array[i]) {
       newArray.push(array[i]);
     }
   }
