@@ -20,13 +20,17 @@
 // }
 
 function swapChars(firstIndex, secondIndex, string) {
-  var stringSplit = string.split('');
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] === firstIndex) {
-      stringSplit.string[i] = secondIndex;
-    } else if (string[i] === secondIndex) {
-      stringSplit.string[i] = firstIndex;
+  var remainingLetters = '';
+  var newString = '';
+  var firstInd = string[firstIndex];
+  var secondInd = string[secondIndex];
+  for (var i = 0; i < string.length; i++) {
+    if ((string[i] !== firstIndex) && (string[i] !== secondIndex)) {
+      remainingLetters += string[i];
+      firstInd = string[secondIndex];
+      secondInd = string[firstIndex];
+      newString = firstInd + remainingLetters + secondInd;
     }
   }
-  return stringSplit.join('');
+  return newString;
 }
