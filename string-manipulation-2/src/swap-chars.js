@@ -8,13 +8,25 @@
 - Bring back together the word
 - Return the value of the full word's storage space */
 
+// function swapChars(firstIndex, secondIndex, string) {
+//   var newString = '';
+//   var stringSplit = string.split('');
+//   var firstInd = stringSplit[firstIndex];
+//   var secondInd = stringSplit[secondIndex];
+//   stringSplit[secondIndex] = firstInd;
+//   stringSplit[firstIndex] = secondInd;
+//   newString = stringSplit.join('');
+//   return newString;
+// }
+
 function swapChars(firstIndex, secondIndex, string) {
-  var newString = '';
   var stringSplit = string.split('');
-  var firstInd = stringSplit[firstIndex];
-  var secondInd = stringSplit[secondIndex];
-  stringSplit[secondIndex] = firstInd;
-  stringSplit[firstIndex] = secondInd;
-  newString = stringSplit.join('');
-  return newString;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === firstIndex) {
+      stringSplit.string[i] = secondIndex;
+    } else if (string[i] === secondIndex) {
+      stringSplit.string[i] = firstIndex;
+    }
+  }
+  return stringSplit.join('');
 }
