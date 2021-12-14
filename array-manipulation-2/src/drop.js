@@ -1,14 +1,8 @@
 /* exported drop */
-/* - Create a storage space to store your output
-- In the condition that what is given is empty, return an empty storage space
-- In the condition that there is something given that isn't empty, store and return the value starting at given amount up until the end of the group given */
+/* - Create a storage space to store your output to drop however much desired amount
+- Return the value of your storage space as your output */
 
 function drop(array, count) {
-  var newArray = [];
-  if (array === []) {
-    return newArray;
-  } else {
-    newArray = array.slice(count, array.length);
-  }
+  var newArray = array.slice(count, array.length);
   return newArray;
 }
