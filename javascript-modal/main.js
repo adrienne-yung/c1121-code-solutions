@@ -1,19 +1,19 @@
 var $modalButton = document.querySelector('.modal-button');
-var $modalWindow = document.querySelector('.modal-window');
+var $modalOpen = document.querySelector('.modal-open');
 var $noButton = document.querySelector('.no-button');
 
 $modalButton.addEventListener('click', openModal);
 function openModal(event) {
   if (event.target.matches('.modal-button')) {
-    $modalWindow.className = 'modal-window modal-open';
+    $modalOpen.className = 'modal-open';
   } else {
-    $modalWindow.className = 'modal-window';
+    $modalOpen.className = 'modal-open hidden';
   }
 }
 
 $noButton.addEventListener('click', noThanks);
 function noThanks(event) {
   if (event.target.matches('.no-button')) {
-    $modalWindow.className = 'modal-window';
+    $modalOpen.className = 'modal-open hidden';
   }
 }
