@@ -1,0 +1,42 @@
+.phrase {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.current-letter {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+span {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+button {
+  background-color: indianred;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.play-again {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
