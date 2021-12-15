@@ -82,7 +82,7 @@ button {
 .top-nav {
   color: rgb(185, 183, 183);
   margin-left: 11px;
-  margin-right: 10px;
+  margin-right: 11px;
   font-size: 14px;
 }
 
@@ -90,6 +90,8 @@ button {
   margin-top: 35px;
   width: 100%;
   margin-left: 25px;
+  display: flex;
+  padding-left: 5px;
 }
 
 a {
@@ -255,11 +257,8 @@ button:hover {
 
 .top-nav:hover,
 .lower-anchor-hover:hover {
-  background-color: crimson;
-  color: white;
+  color: crimson;
   cursor: pointer;
-  padding: 10px 5px 10px 5px;
-  border-radius: 5px;
 }
 
 .contact-us-nav:hover {
