@@ -87,23 +87,34 @@ button {
 }
 
 .top-nav-margin {
-  margin-top: 35px;
   width: 100%;
   margin-left: 25px;
   display: flex;
   padding-left: 5px;
+  align-items: center;
+  margin-top: 30px;
 }
+
+/* .top-nav-margin-top {
+  align-items: center;
+} */
 
 a {
   text-decoration: none;
 }
 
-.contact-us-nav {
+.contact-nav-button {
   background-color: rgb(41, 68, 100);
-  color: white;
-  padding: 10px;
-  font-size: 14px;
   border-radius: 5px;
+  padding: 8px 10px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+}
+
+.text-align-right {
+  text-align: right;
+  display: flex;
 }
 
 .dark-gray-background {
@@ -121,7 +132,7 @@ a {
   height: 50px;
 }
 
-button {
+.get-started-buttons {
   padding: 15px 35px 15px 35px;
   color: white;
   background-color: rgb(41, 68, 100);
@@ -257,19 +268,14 @@ button:hover {
 
 .top-nav:hover,
 .lower-anchor-hover:hover {
-  color: crimson;
+  color: rgb(41, 68, 100);
   cursor: pointer;
-}
-
-.contact-us-nav:hover {
-  background-color: crimson;
-  color: white;
-  cursor: pointer;
+  font-weight: bold;
 }
 
 .hover-color:hover {
   cursor: pointer;
-  color: crimson;
+  color: rgb(41, 68, 100);
   font-weight: bold;
 }
 
