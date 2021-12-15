@@ -19,18 +19,18 @@
 //   return newString;
 // }
 
-function swapChars(firstIndex, secondIndex, string) {
-  var remainingLetters = '';
-  var newString = '';
-  var firstInd = string[firstIndex];
-  var secondInd = string[secondIndex];
-  for (var i = 0; i < string.length; i++) {
-    if ((string[i] !== firstIndex) && (string[i] !== secondIndex)) {
-      remainingLetters += string[i];
-      firstInd = string[secondIndex];
-      secondInd = string[firstIndex];
-      newString = firstInd + remainingLetters + secondInd;
-    }
-  }
-  return newString;
-}
+// function swapChars(firstIndex, secondIndex, string) {
+//   var remainingLetters = '';
+//   var newString = '';
+//   var firstInd = string[firstIndex];
+//   var secondInd = string[secondIndex];
+//   for (var i = 0; i < string.length; i++) {
+//     if ((string[i] !== firstIndex) && (string[i] !== secondIndex)) {
+//       remainingLetters += string[i];
+//       firstInd = string[secondIndex];
+//       secondInd = string[firstIndex];
+//       console.log(remainingLetters);
+//     }
+//   }
+//   return newString;
+// }
