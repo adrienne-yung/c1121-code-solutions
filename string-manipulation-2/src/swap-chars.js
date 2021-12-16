@@ -1,36 +1,26 @@
 /* exported swapChars */
-/* - Create a storage space for your output
-- Create a storage space to hold the value of your words split
-- Create a storage space to hold the value of your word's first element
-- Create a storage space to hold the value of your word's second element
-- Switch the value of the first storage space with the second
-- Switch the value of the second storage space with the first
-- Bring back together the word
-- Return the value of the full word's storage space */
+/* - Create a storage space to hold your output
+- Create a storage space to hold the value of A
+- Create a storage space to hold the value of B
+- Traverse through the group of words
+- If your character is A, swap the value of A for B, then store into your output storage space
+- If your character is B, swap the value of B for A, then store into your output storage space
+- If your character is not A or B, store the character as is into your output storage space
+- Return the value of your storage space as your output */
 
-// function swapChars(firstIndex, secondIndex, string) {
-//   var newString = '';
-//   var stringSplit = string.split('');
-//   var firstInd = stringSplit[firstIndex];
-//   var secondInd = stringSplit[secondIndex];
-//   stringSplit[secondIndex] = firstInd;
-//   stringSplit[firstIndex] = secondInd;
-//   newString = stringSplit.join('');
-//   return newString;
-// }
+function swapChars(firstIndex, secondIndex, string) {
+  var newString = '';
+  var firstCharacter = string[firstIndex];
+  var secondCharacter = string[secondIndex];
+  for (var i = 0; i < string.length; i++) {
+    if (i === firstIndex) {
+      newString += secondCharacter;
+    } else if (i === secondIndex) {
+      newString += firstCharacter;
+    } else {
+      newString += (string[i]);
+    }
 
-// function swapChars(firstIndex, secondIndex, string) {
-//   var remainingLetters = '';
-//   var newString = '';
-//   var firstInd = string[firstIndex];
-//   var secondInd = string[secondIndex];
-//   for (var i = 0; i < string.length; i++) {
-//     if ((string[i] !== firstIndex) && (string[i] !== secondIndex)) {
-//       remainingLetters += string[i];
-//       firstInd = string[secondIndex];
-//       secondInd = string[firstIndex];
-//       console.log(remainingLetters);
-//     }
-//   }
-//   return newString;
-// }
+  }
+  return newString;
+}
