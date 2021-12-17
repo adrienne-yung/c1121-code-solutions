@@ -4,5 +4,10 @@
 - Return that value as your output */
 
 function reverseWords(string) {
-  return string.split('').reverse().join('').split(' ').reverse().join(' ');
+  var newString = '';
+  for (var i = string.length - 1; i >= 0; i--) {
+    newString += string[i];
+  }
+  return newString.split(' ').reverse().join(' ');
+
 }
