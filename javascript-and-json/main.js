@@ -33,7 +33,7 @@ console.log('typeof thirdBook:', typeof thirdBook);
 console.log('Array of books:', arrayOfBooks);
 console.log('typeof arrayOfBooks:', typeof arrayOfBooks);
 
-var stringOfStudent = '{"name": "string", "id": "number"}';
+var stringOfStudent = '{"name": "string", "id": "Number"}';
 console.log('stringOfStudent:', stringOfStudent);
 console.log('typeof stringOfStudent:', typeof stringOfStudent);
 
