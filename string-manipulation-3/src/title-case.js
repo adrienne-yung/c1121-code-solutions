@@ -16,9 +16,6 @@ function titleCase(title) {
     if (title[i] === 'Api') {
       title[i] = title[i].toUpperCase();
     }
-    if ((title[i] === 'In') || (title[i] === 'For') || (title[i] === 'Of') || (title[i] === 'The') || (title[i] === 'To') || (title[i] === 'On') || (title[i] === 'And')) {
-      title[i] = title[i].toLowerCase();
-    }
     if (title[i] === 'Javascript') {
       title[i] = 'JavaScript';
     }
@@ -28,6 +25,11 @@ function titleCase(title) {
     if (title[i] === 'In-depth') {
       title[i] = 'In-Depth';
     }
+    if ((title[i] === 'In') || (title[i] === 'For') || (title[i] === 'Of') || (title[i] === 'The') || (title[i] === 'To') || (title[i] === 'On') || (title[i] === 'And')) {
+      title[i] = title[i].toLowerCase();
+    }
+    title.join(' ');
+    title.split(': ');
   }
   return title.join(' ');
 }
