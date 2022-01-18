@@ -1,0 +1,141 @@
+    1  git config --global user.name "Adrienne Yung"
+    2  git config --global user.email "adrienneyung64@gmail.com"
+    3  git config --global --list
+    4  pwd
+    5  cd ~/repos/c1021-code-solutions
+    6  cd http-messages
+    7  git status
+    8  pwd
+    9  cd http-messages
+   10  'cd http-messages'
+   11  cd http-messages
+   12  http https://example.com
+   13  http --verbose https://example.com
+   14  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+   15  https://jsonplaceholder.typicode.com/users
+   16  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+   17  http --body GET https://example.com > index.html
+   18  cd c1021-code-solutions
+   19  ~repos/c1021-code-solutions
+   20  git add http-messages
+   21  git commit -m "Completed http-messages"
+   22  git add ./
+   23  git commit -m "Completed http-messages"
+   24  git push origin http-messages
+   25  git switch master
+   26  git config --global user.name "Adrienne Yung"
+   27  git config --global user.email "adrienneyung64@gmail.com"
+   28  git config --global --list
+   29  cd ~/repos
+   30  cd ~/repos/c1121-code-solutions
+   31  git branch http-messages
+   32  git switch http-messages
+   33  http https://example.com
+   34  http --verbose https://example.com
+   35  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   36  http --body GET https://example.com > http-messages/index.html
+   37  git add http-messages
+   38  git commit -m "Completed http-messages exercise."
+   39  git push origin http-messages
+   40  git switch master
+   41  git branch javascript-ajax
+   42  git switch javascript-ajax
+   43  git add javascript-ajax
+   44  git commit -m "Completed javascript-ajax exercise."
+   45  git push origin javascript-ajax
+   46  GET https://www.mmobomb.com/api1/games?platform=pc
+   47  http https://www.mmobomb.com/api
+   48  GET https://www.mmobomb.com/api1/games?platform=pc
+   49  http GET https://www.mmobomb.com/api1/games?platform=pc
+   50  http GET https://www.mmobomb.com/api1/games
+   51  http GET https://www.mmobomb.com/api1/game?id=452
+   52  http GET https://www.mmobomb.com/api1/games
+   53  Century: Age of Ashes
+   54  cd ~/repos
+   55  git clone git@github.com:adrienneyung64/ajax-project.git
+   56  cd ajax-project
+   57  npm ci
+   58  git branch user-can-search-for-games
+   59  git switch user-can-search-for-games
+   60  git add user-can-search-for-games
+   61  git add index.html js css images 
+   62  git commit -m "Completed feature 1."
+   63  git add index.html js css images
+   64  git commit -m "Completed feature1."
+   65  git push origin user-can-search-for-games
+   66  cd ~/repos
+   67  ~/repos/c1121-code-solutions
+   68  c1121-code-solutions
+   69  cd c1121-code-solutions
+   70  cd command-line-basics
+   71  pwd
+   72  man man
+   73  man cat
+   74  man cat 
+   75  cat laziness.text
+   76  man cat laziness.text
+   77  man cat impatience.text
+   78  cat impatience.text
+   79  cat -n impatience.text
+   80  cat impatience.txt
+   81  cat laziness.txt
+   82  cat hubrix.txt
+   83  cat hubris.txt
+   84  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+   85  cat three-virtues.txt
+   86  man ls
+   87  list -a
+   88  ls -a
+   89  ls -f
+   90  ls lfx-staff/
+   91  ls -a lfz-staff/
+   92  ls -f lfz-staff/
+   93  ls -aF lfz-staff > lfz-staff/contents/txt
+   94  ls -aF lfz-staff
+   95  ls -aF lfz-staff > lfz-staff/contents.txt
+   96  cat lfz-staff/contents.txt
+   97  man pwd
+   98  pwd
+   99  pwd > i-was-here.txt
+  100  ls
+  101  cat i-was-here.txt
+  102  man echo
+  103  echo 'Hello, World!'
+  104  echo 'Hello, World!' > hello.txt
+  105  ls
+  106  cat hello.txt
+  107  man touch
+  108  touch tag-youre-it.txt
+  109  touch boop-txt > snoot/
+  110  touch boop-txt
+  111  ls
+  112  ls snoot/
+  113  ls
+  114  touch snoot/ > boop.txt
+  115  ls snoot/
+  116  ls
+  117  man mkdir
+  118  mkdir parent
+  119  ls
+  120  mkdir -p parent/child/grandchild
+  121  touch parent/child/grandchild > .gitkeep
+  122  ls -a
+  123  man mv
+  124  mv pokiemans pokemon
+  125  ls
+  126  man rm
+  127  rm lol.txt
+  128  ls
+  129  rm -r kill-me/
+  130  ls
+  131  man cp
+  132  cp and-then.txt no-and-then.txt
+  133  ls
+  134  cat
+  135  cd ~/repos
+  136  cd c1121-code-solutions
+  137  cd command-line-basics
+  138  pwd
+  139  man history
+  140  history
+  141  history > command-history.txt
