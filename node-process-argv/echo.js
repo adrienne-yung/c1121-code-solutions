@@ -1,2 +1,1 @@
-console.log('Hello');
-console.log('Adrienne');
+console.log(process.argv[2]);
