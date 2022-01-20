@@ -2,13 +2,7 @@ var count = 3;
 var timerId = null;
 
 function countdown() {
-  if (count === 3) {
-    console.log(count);
-    count--;
-  } else if (count === 2) {
-    console.log(count);
-    count--;
-  } else if (count === 1) {
+  if ((count <= 3) && (count > 0)) {
     console.log(count);
     count--;
   } else {
