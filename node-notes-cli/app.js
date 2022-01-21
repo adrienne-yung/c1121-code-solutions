@@ -7,19 +7,26 @@ if (process.argv[2] === 'read') {
   }
 }
 if (process.argv[2] === 'create') {
-  const data = JSON.stringify(process.argv[3], null, 2);
+  var newNote = process.argv[3];
+  dataJson.notes[dataJson.nextId] = newNote;
+  dataJson.nextId++;
+  const data = JSON.stringify(dataJson, null, 2);
   fs.writeFile('data.json', data, 'utf8', err => {
     if (err) throw err;
-    dataJson.nextId++;
-    dataJson.notes[dataJson.nextId] = process.argv[3];
-    // console.log(process.argv);
-    // console.log(data);
-    // console.log(dataJsonnextId: data)
   });
 }
-// if (process.argv[2] === 'delete') {
-
-// }
-// if (process.argv[2] === 'update') {
-
-// }
+if (process.argv[2] === 'update') {
+  var editedNote = process.argv[4];
+  dataJson.notes[process.argv[3]] = editedNote;
+  const data = JSON.stringify(dataJson, null, 2);
+  fs.writeFile('data.json', data, 'utf8', err => {
+    if (err) throw err;
+  });
+}
+if (process.argv[2] === 'delete') {
+  delete dataJson.notes[process.argv[3]];
+  const data = JSON.stringify(dataJson, null, 2);
+  fs.writeFile('data.json', data, 'utf8', err => {
+    if (err) throw err;
+  });
+}
