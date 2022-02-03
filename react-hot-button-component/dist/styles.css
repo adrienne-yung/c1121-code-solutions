@@ -1,0 +1,37 @@
+button {
+  width: 150px;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.frostbite {
+  color: white;
+  background-color: rgb(53, 28, 117);
+}
+
+.chilly-blue {
+  color: white;
+  background-color: rgb(103, 78, 167);
+}
+
+.mild-red {
+  color: white;
+  background-color: rgb(224, 102, 102);
+}
+
+.del-taco-scorch {
+  color: black;
+  background-color: rgb(246, 178, 107);
+}
+
+.disco-inferno {
+  color: black;
+  background-color: rgb(255, 255, 0);
+}
+
+.spicy-water {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
