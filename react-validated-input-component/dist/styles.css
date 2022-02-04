@@ -1,0 +1,26 @@
+#root {
+  font-family: monospace;
+}
+
+p {
+  position: relative;
+  width: 250px;
+  color: red;
+  font-size: 11px;
+}
+
+form {
+  width: 250px;
+}
+
+input {
+  margin-right: 15px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
