@@ -1,0 +1,47 @@
+.switch {
+  border: 3px solid black;
+  width: 50px;
+  height: 25px;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.background {
+  background-color: gray;
+}
+
+.background-active {
+  background-color: rgb(106, 168, 79);
+  transition: 0.5s ease-in;
+}
+
+.slide {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background: white;
+}
+
+.slide-direction {
+  position: relative;
+  right: 0;
+}
+
+.slide-direction-active {
+  position: relative;
+  left: 30px;
+  transition: 0.5s ease-in;
+}
+
+#react-toggle-switch {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+  color: red;
+  margin-left: 40px;
+}
