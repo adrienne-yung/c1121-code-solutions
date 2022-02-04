@@ -17,8 +17,8 @@ class ToggleSwitch extends React.Component {
     const clicked = this.state.isClicked;
     return (
       <div id='react-toggle-switch'>
-        <div className={!clicked ? 'switch background' : 'switch background-active'}></div>
-        <div onClick={this.handleClick} className={!clicked ? 'slide slide-direction' : 'slide slide-direction-active'}></div>
+        <div className={clicked ? 'switch background-active' : 'switch background'}></div>
+        <div onClick={this.handleClick} className={clicked ? 'slide slide-direction-active' : 'slide slide-direction'}></div>
         <label>{!clicked ? 'OFF' : 'ON'}</label>
       </div>
     );
