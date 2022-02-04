@@ -1,0 +1,44 @@
+i {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+a {
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.modal {
+  background-color: rgb(179, 205, 253);
+  width: 200px;
+  border: 2px black solid;
+  padding: 15px;
+  height: 100vh;
+}
+
+.page-height {
+  height: 100vh;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
