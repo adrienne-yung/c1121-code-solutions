@@ -10,10 +10,9 @@ class Accordion extends React.Component {
   }
 
   handleClick(event) {
-    this.setState({ openNote: Number(event.target.className) });
-    if (this.state.openNote !== null && Number(event.target.className) === Number(this.state.openNote)) {
-      this.setState({ openNote: null });
-    }
+    const clickedNote = Number(event.target.className);
+    const newOpenNote = clickedNote === this.state.openNote ? null : clickedNote;
+    this.setState({ openNote: newOpenNote });
   }
 
   render() {
