@@ -1,0 +1,27 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: 'Comforter', cursive;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  border: 2px solid white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgb(46, 8, 8);
+  color: rgb(201, 201, 201);
+}
+
+.description {
+  width: 300px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 10px;
+  font-size: 18px;
+  text-align: center;
+}
