@@ -11,7 +11,7 @@ class Carousel extends React.Component {
     this.handleClickDot = this.handleClickDot.bind(this);
   }
 
-  mount() {
+  componentDidMount() {
     this.intervalId = setInterval(() => {
       if (this.state.currentImageIndex === this.props.bbYoda.length - 1) {
         this.setState({ currentImageIndex: -1 });
