@@ -122,9 +122,7 @@ app.delete('/api/grades/:gradeId', (req, res, next) => {
     .then(result => {
       const [deletedGrade] = result.rows;
       if (!deletedGrade) {
-        if (!Number.isInteger(gradeId) || gradeId < 0) {
-          throw new ClientError(400, `Cannot find grade with gradeId ${gradeId}`);
-        }
+        throw new ClientError(400, `Cannot find grade with gradeId ${gradeId}`);
       } else {
         res.sendStatus(204);
       }
