@@ -50,10 +50,8 @@ User-can-stay-signed-in (even if they refresh the page) {
 User-can-sign-out {
   - User is currently signed in
   - User clicks on the sign-out button in the nav-bar
-  - Modal is opened to confirm whether or not user wishes to sign out
-    - If "no" is selected, user will not be signed out.
-    - If "yes" is selected, the token in local storage is removed
-      - State of user property is set to null
-      - Nav bar changes sign-out to sign-in
-      - User is sent to the page where users must sign-in if they wish to access website/account information/functions
+  - The token in local storage is removed
+  - State of user property is set to null
+  - Nav bar changes sign-out to sign-in
+  - User is sent to the page where users must sign-in if they wish to access website/account information/functions
 }
