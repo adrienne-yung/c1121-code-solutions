@@ -24,12 +24,16 @@
       };
       const counterOne = makeCounter();
       const counterTwo = makeCounter();
-      alert(counterOne.value());
+
+      console.log(counterOne.value());
+
       counterOne.increment();
-      alert(counterOne.value());
+      counterOne.increment();
+      console.log(counterOne.value());
+
       counterOne.decrement();
-      alert(counterOne.value());
-      alert(counterTwo.value());
+      console.log(counterOne.value());
+      console.log(counterTwo.value());
     </script>
   </body>
 </html>
