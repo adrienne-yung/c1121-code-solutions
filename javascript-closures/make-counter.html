@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Closures</title>
+  </head>
+  <body>
+    <script>
+      const makeCounter = function () {
+        let privateCounter = 0;
+        function change(value) {
+          privateCounter += value;
+        }
+        return {
+          increment: function () {
+            change(1);
+          },
+          decrement: function () {
+            change(-1);
+          },
+          value: function () {
+            return privateCounter;
+          }
+        };
+      };
+      const counterOne = makeCounter();
+      const counterTwo = makeCounter();
+
+      console.log(counterOne.value());
+
+      counterOne.increment();
+      counterOne.increment();
+      console.log(counterOne.value());
+
+      counterOne.decrement();
+      console.log(counterOne.value());
+      console.log(counterTwo.value());
+    </script>
+  </body>
+</html>
